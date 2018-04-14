@@ -1,0 +1,40 @@
+{
+  "name": "mongonews",
+  "version": "1.0.0",
+  "description": "Using MongoDB and web scraping to share and comment on the news",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishutch/MongoNews.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "news",
+    "webscraping",
+    "cheerio"
+  ],
+  "author": "Chris Hutchinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrishutch/MongoNews/issues"
+  },
+  "homepage": "https://github.com/chrishutch/MongoNews#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.3",
+    "path": "^0.12.7",
+    "request": "^2.81.0"
+  },
+  "engines": {
+    "node": "7.4.0"
+  }
+}

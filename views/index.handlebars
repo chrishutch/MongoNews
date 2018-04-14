@@ -1,0 +1,23 @@
+<div class = "container" >
+  <div class="jumbotron">
+       <h1>GNN</h1>
+         <h2>Gamers News Network</h2>
+         <h3>The Most Trusted Name in Gamer News!</h3>
+         <a href="/search"> <button type="button" class="btn btn-danger scrape">Search Lastest Articles</button></a>
+  </div>
+  <div class="article-container">
+  {{#each Article}}
+    <div class="row">
+     <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{this.title}}</h5>
+          <p class="card-text">{{this.link}}</p>
+          <a href="/comments/{{this._id}}" class="btn btn-primary save-article">See Comments</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  {{/each}}
+  </div>
+</div>
